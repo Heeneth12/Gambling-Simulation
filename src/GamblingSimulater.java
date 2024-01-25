@@ -3,8 +3,9 @@ import java.util.Random;
 class Stake {
     public int EveryDayStack;
     public int EveryGameStack;
-    
-
+    public int NumOfDays;
+    public int DayStackEarn;
+    public int DayStack
 
     public int Test;
 
@@ -14,26 +15,32 @@ class Stake {
 
     }
 
-    @Override
-    public String toString() {
-        return "Stake [EveryDayStack=" + EveryDayStack + ", EveryGameStack=" + EveryGameStack + "]";
-    }
+}
 
-    
-    tatic void main(String[] a
+    lic
 
-           obj.DayStackEarn += 1;
+    static void main(String[] args) {
+        Random rand = new Random();
+        
+    Stake obj = new Stake();
+    int WonORLoss = rand(int 2);
+        for (int i= 0 i<= 100;i++){
+            if ( WonORLoss == 1 ){
+                obj.DayStackEarn += 1;
+            }
+            else{
+                obj.DayStackEarn -= 1;
+        
+
+        if (obj.DayStackEarn<=50){
+            System.out.println("earned Enougth Stack for the day..!");
+        }else{
+            System.out.println("loos Stack for the day");
         }
-        else{
-            obj.Da
+
+    public  winORlose(){
+            return Math.abs(rand.nextInt());
         }
-        
-
-
-        
-        
-       
 
    }
 
-} 
