@@ -1,7 +1,12 @@
+import java.util.Random;
 
 class Stake {
     public int EveryDayStack;
     public int EveryGameStack;
+    
+
+
+    public int Test;
 
     public Stake() {
         EveryDayStack = 100;
@@ -14,15 +19,21 @@ class Stake {
         return "Stake [EveryDayStack=" + EveryDayStack + ", EveryGameStack=" + EveryGameStack + "]";
     }
 
-}
+    
+    tatic void main(String[] a
 
-public class GamblingSimulater {
+           obj.DayStackEarn += 1;
+        }
+        else{
+            obj.Da
+        }
+        
 
-    public static void main(String[] args) {
 
-        Stake obj = new Stake();
-        System.out.println(obj);
+        
+        
+       
 
-    }
+   }
 
-}
+} 
